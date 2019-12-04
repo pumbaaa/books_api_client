@@ -17,7 +17,7 @@ body {
 
 #footer {
   position: absolute;
-  bottom: 3px;
+  bottom: 0;
   width: 100vW;
 }
 
@@ -40,8 +40,8 @@ input[type=submit], button {
 
 .alert {
   padding: 20px;
-  background-color: darkcyan;
-  color: green;
+  background-color: lightgreen;
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -58,6 +58,6 @@ input[type=submit], button {
 }
 
 .closebtn:hover {
-  color: bisque;
+  color: yellow;
   background-color: blanchedalmond;
 }
