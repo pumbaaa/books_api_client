@@ -6,8 +6,8 @@ body {
 }
 #header, #footer {
   background:  brown;
-  height: 3em;
-  font-size: 20px;
+  height: 2rem;
+  font-size: 8px;
   padding: 10px;
 }
 
@@ -17,7 +17,7 @@ body {
 
 #footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 3px;
   width: 100vW;
 }
 
@@ -40,8 +40,8 @@ input[type=submit], button {
 
 .alert {
   padding: 20px;
-  background-color: lightgreen;
-  color: white;
+  background-color: darkcyan;
+  color: green;
   margin-bottom: 15px;
 }
 
@@ -58,6 +58,6 @@ input[type=submit], button {
 }
 
 .closebtn:hover {
-  color: yellow;
+  color: bisque;
   background-color: blanchedalmond;
 }
