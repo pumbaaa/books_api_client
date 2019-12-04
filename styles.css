@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
-  margin: 0;
+  margin: 1.5rem;
   font-family: 'Raleway', sans-serif;
 }
 #header, #footer {
-  background:  whitesmoke;
-  height: 5em;
-  font-size: 10px;
-  padding: 4px;
+  background:  brown;
+  height: 3em;
+  font-size: 20px;
+  padding: 10px;
 }
 
 #header h1 {
-  color: black;
+  color: purple;
 }
 
 #footer {
@@ -32,29 +32,32 @@ input[type=text] {
 }
 
 input[type=submit], button {
-  background-color: red;
-  color: black;
+  background-color: orange;
+  color: pink;
   padding: 11px 40px;
   font-size: 14px;
 }
 
 .alert {
   padding: 20px;
-  background-color: blue;
-  color: aquamarine;
+  background-color: lightgreen;
+  color: white;
   margin-bottom: 15px;
 }
 
 /* The close button */
 .closebtn {
-  color: blueviolet;
+  margin-left: 15px;
+  color: white;
   font-weight: bold;
   float: right;
   font-size: 22px;
   line-height: 20px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .closebtn:hover {
-  color: greenyellow;
+  color: yellow;
+  background-color: blanchedalmond;
 }
